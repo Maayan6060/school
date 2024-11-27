@@ -1,12 +1,12 @@
 import streamlit as st
 from PIL import Image
 #search engine optimization
-st.markdown("""
-    <meta name="this is a school website. it contains information about the school, tests, assays, and exam dated for the students, custom AI to help students with multiple school subjexts and more" content="Alterman - A web app built using Streamlit">
-    <meta name="Alterman" content="Alterman, Streamlit app, Web app, Example">
-    <meta name="author" content="Your Name">
-    <title>Alterman</title>
-""", unsafe_allow_html=True)
+# st.markdown("""
+#     <meta name="this is a school website. it contains information about the school, tests, assays, and exam dated for the students, custom AI to help students with multiple school subjexts and more" content="Alterman - A web app built using Streamlit">
+#     <meta name="Alterman" content="Alterman, Streamlit app, Web app, Example">
+#     <meta name="author" content="Your Name">
+#     <title>Alterman</title>
+# """, unsafe_allow_html=True)
 
 #tab title
 st.set_page_config(page_title="אלתרמן חלל ותעופה", page_icon=":school:", layout="wide")
