@@ -1,5 +1,10 @@
 import streamlit as st
 from PIL import Image
+
+#tab title
+#tab title
+st.set_page_config(page_title="אלתרמן חלל ותעופה", page_icon=":school:", layout="wide")
+
 #search engine optimization
 st.markdown("""
       <meta name="google-site-verification" content="NMpko4mHDXRG7bRxW
@@ -9,8 +14,7 @@ st.markdown("""
 #     <title>Alterman</title>
  """, unsafe_allow_html=True)
 
-#tab title
-st.set_page_config(page_title="אלתרמן חלל ותעופה", page_icon=":school:", layout="wide")
+
 
 #Top page image
 image = Image.open("school.jpg")
