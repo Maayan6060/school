@@ -7,7 +7,7 @@ st.set_page_config(page_title="אלתרמן חלל ותעופה", page_icon=":sc
 
 #search engine optimization
 st.markdown("""
-      <meta name="google-site-verification" content="NMpko4mHDXRG7bRxW
+     <meta name="google-site-verification" content="NMpko4mHDXRG7bRxWRz9ZaLISwNTjC3ckDQv3zPufI4" />
 #     <meta name="this is a school website. it contains information about the school, tests, assays, and exam dated for the students, custom AI to help students with multiple school subjexts and more" content="Alterman - A web app built using Streamlit">
 #     <meta name="Alterman" content="Alterman, Streamlit app, Web app, Example">
 #     <meta name="author" content="Your Name">
