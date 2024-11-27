@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 #search engine optimization
- st.markdown("""
+st.markdown("""
       <meta name="google-site-verification" content="NMpko4mHDXRG7bRxW
 #     <meta name="this is a school website. it contains information about the school, tests, assays, and exam dated for the students, custom AI to help students with multiple school subjexts and more" content="Alterman - A web app built using Streamlit">
 #     <meta name="Alterman" content="Alterman, Streamlit app, Web app, Example">
