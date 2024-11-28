@@ -40,7 +40,7 @@ st.markdown(
         position: relative;
         right: 1000px;
         width: 200%;
-        height: 65px; 
+        height: 80px; 
         background-color: rgba(255, 255, 255, 0.75);
         margin: 20px 0; 
     }
