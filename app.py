@@ -26,7 +26,17 @@ st.markdown(
         background-attachment: fixed;
         height: 100vh;
     }}
+     .vertical-line {{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        height: 60%; 
+        width: 2px;
+        background-color: white;
+        z-index: 1;
+    }}
     </style>
+    <div class="vertical-line"></div>
     """,
     unsafe_allow_html=True
 )
