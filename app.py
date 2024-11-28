@@ -15,10 +15,18 @@ st.markdown("""
  """, unsafe_allow_html=True)
 
 #Top page image
-background-image: url('school.jpg');
-background-size: 100% 80%;
-background-repeat; no-repeat;
-background-position: center
+st.markdown(
+    """
+    <style>
+    body {
+        background-image: url('school.jpg');
+        background-size: 100% 80%; 
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
 
 # image = Image.open("school.jpg")
 # st.image("school.jpg", caption='בית ספר לחלל ותעופה ע"ש אלתרמן', use_container_width=True)
