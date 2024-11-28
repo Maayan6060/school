@@ -30,7 +30,8 @@ st.markdown(
         position: absolute;
         top: 20%;
         left: 50%;
-        height: 60%; 
+        transform: translateX(-50%); 
+        height: 50%;
         width: 3px;
         background-color: black;
         z-index: 2;
