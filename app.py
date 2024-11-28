@@ -28,10 +28,10 @@ st.markdown(
     }}
      .vertical-line {{
         position: absolute;
-        top: 20%;
+        top: 0;
         left: 50%;
         transform: translateX(-50%); 
-        height: 50%;
+        height: 100%;
         width: 3px;
         background-color: black;
         z-index: 2;
