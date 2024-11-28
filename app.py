@@ -26,31 +26,22 @@ st.markdown(
         background-attachment: fixed;
         height: 100vh;
     }}
-     # .vertical-line {{
-     #    position: absolute;
-     #    top: 0;
-     #    left: 50%;
-     #    transform: translateX(-50%); 
-     #    height: 100%;
-     #    width: 3px;
-     #    background-color: black;
-     #    z-index: 2;
     }}
     </style>
-    # <div class="vertical-line"></div>
     """,
     unsafe_allow_html=True
 )
 
+#horizontal image line
 st.markdown(
     """
     <style>
     .horizontal-line {
         position: relative;
-        width: 100%; /* Full page width */
-        height: 30px; /* Thickness of the line (10 times thicker) */
-        background-color: black; /* Line color */
-        margin: 20px 0; /* Add some space above and below */
+        width: 100%;
+        height: 30px; 
+        background-color: rgba(255, 255, 255, 0.1);
+        margin: 20px 0; 
     }
     </style>
     <div class="horizontal-line"></div>
