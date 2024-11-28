@@ -45,7 +45,7 @@ st.markdown(
 st.markdown(
     """
     <style>
-    .vertical-line {
+    .horizontal-line {
         position: absolute;
         top: 0;
         left: 50%;
