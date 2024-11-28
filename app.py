@@ -26,21 +26,44 @@ st.markdown(
         background-attachment: fixed;
         height: 100vh;
     }}
-     .vertical-line {{
+     # .vertical-line {{
+     #    position: absolute;
+     #    top: 0;
+     #    left: 50%;
+     #    transform: translateX(-50%); 
+     #    height: 100%;
+     #    width: 3px;
+     #    background-color: black;
+     #    z-index: 2;
+    }}
+    </style>
+    # <div class="vertical-line"></div>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    """
+    <style>
+    .vertical-line {
         position: absolute;
         top: 0;
         left: 50%;
-        transform: translateX(-50%); 
-        height: 100%;
-        width: 3px;
-        background-color: black;
-        z-index: 2;
-    }}
+        transform: translateX(-50%);
+        height: 100vh; /* Full viewport height */
+        width: 3px; /* Width of the line */
+        background-color: black; /* Line color */
+        z-index: 1000; /* Ensure it's above other elements */
+    }
     </style>
     <div class="vertical-line"></div>
     """,
     unsafe_allow_html=True
 )
+
+# Streamlit content
+st.title("Vertical Line Debug Example")
+st.write("If you see this message, but not the vertical line, let's troubleshoot further!")
 #image = Image.open("school.jpg")
 #st.image("https://www.netanya.muni.il/DocLib/%D7%97%D7%99%D7%A0%D7%95%D7%9A/%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA/%D7%A2%D7%9C%20%D7%99%D7%A1%D7%95%D7%93%D7%99/%D7%AA%D7%96/%D7%91%D7%99%D7%AA%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%9C%D7%AA%D7%A2%D7%95%D7%A4%D7%94%20%D7%95%D7%9C%D7%97%D7%9C%D7%9C%20%D7%A2%D7%9C%20%D7%A9%D7%9D%20%D7%90%D7%9C%D7%AA%D7%A8%D7%9E%D7%9F/28.jpg?RenditionID=7", caption='בית ספר לחלל ותעופה ע"ש אלתרמן', use_container_width=True)
 
