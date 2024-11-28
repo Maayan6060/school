@@ -49,13 +49,13 @@ st.markdown(
        top: 50%; 
        left: 50%; 
        transform: translate(-50%, -50%);
-       font-size: 20px; 
-       color: red;
+       font-size: 60px; 
+       color: #001f3f;
        font-family: 'BN Cloud'; 
     }
     </style>
     <div class="horizontal-line">
-       <div class="line-text">"חטיבת ביניים חלל ותעופה ע"ש אלתרמן"</div>
+       <div class="line-text">חטיבת ביניים חלל ותעופה ע"ש אלתרמן</div>
     </div>
 
     """,
