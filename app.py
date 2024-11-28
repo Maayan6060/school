@@ -46,17 +46,14 @@ st.markdown(
     """
     <style>
     .horizontal-line {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 100vh; /* Full viewport height */
-        width: 3px; /* Width of the line */
+        position: relative;
+        width: 100%; /* Full page width */
+        height: 30px; /* Thickness of the line (10 times thicker) */
         background-color: black; /* Line color */
-        z-index: 1000; /* Ensure it's above other elements */
+        margin: 20px 0; /* Add some space above and below */
     }
     </style>
-    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
     """,
     unsafe_allow_html=True
 )
