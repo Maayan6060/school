@@ -27,6 +27,7 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True
+)
 
 # image = Image.open("school.jpg")
 # st.image("school.jpg", caption='בית ספר לחלל ותעופה ע"ש אלתרמן', use_container_width=True)
