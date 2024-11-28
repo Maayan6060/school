@@ -38,8 +38,8 @@ st.markdown(
     <style>
     .horizontal-line {
         position: relative;
-        width: 100%;
-        height: 30px; 
+        width: 150%;
+        height: 65px; 
         background-color: rgba(255, 255, 255, 0.75);
         margin: 20px 0; 
     }
