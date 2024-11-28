@@ -32,7 +32,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-#horizontal image line
+#horizontal image line+text
 st.markdown(
     """
     <style>
@@ -44,8 +44,20 @@ st.markdown(
         background-color: rgba(255, 255, 255, 0.75);
         margin: 20px 0; 
     }
+    .line-text {
+       position: absolute;
+       top: 50%; 
+       left: 50%; 
+       transform: translate(-50%, -50%);
+       font-size: 20px; 
+       color: red;
+       font-family: 'BN Cloud'; 
+    }
     </style>
-    <div class="horizontal-line"></div>
+    <div class="horizontal-line">
+       <div class="line-text">"חטיבת ביניים חלל ותעופה ע"ש אלתרמן"</div>
+    </div>
+
     """,
     unsafe_allow_html=True
 )
