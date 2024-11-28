@@ -28,12 +28,12 @@ st.markdown(
     }}
      .vertical-line {{
         position: absolute;
-        top: 0;
+        top: 20%;
         left: 50%;
         height: 60%; 
-        width: 2px;
-        background-color: white;
-        z-index: 1;
+        width: 3px;
+        background-color: black;
+        z-index: 2;
     }}
     </style>
     <div class="vertical-line"></div>
