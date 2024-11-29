@@ -24,7 +24,7 @@ st.markdown(
         background-size: 100% 85%;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        height: 100vh;
+       # height: 100vh;
     }}
     }}
     </style>
