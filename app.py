@@ -36,6 +36,12 @@ background_image_url = "https://www.netanya.muni.il/DocLib/%D7%97%D7%99%D7%A0%D7
 
 # Add an image that takes up the full width of the screen
 st.markdown("""
+<div style="
+     width: 100%; 
+     height: auto; 
+     margin: 0; 
+     padding: 0; 
+     overflow: hidden;">
 <img src="https://www.netanya.muni.il/DocLib/%D7%97%D7%99%D7%A0%D7%95%D7%9A/%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA/%D7%A2%D7%9C%20%D7%99%D7%A1%D7%95%D7%93%D7%99/%D7%AA%D7%96/%D7%91%D7%99%D7%AA%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%9C%D7%AA%D7%A2%D7%95%D7%A4%D7%94%20%D7%95%D7%9C%D7%97%D7%9C%D7%9C%20%D7%A2%D7%9C%20%D7%A9%D7%9D%20%D7%90%D7%9C%D7%AA%D7%A8%D7%9E%D7%9F/28.jpg?RenditionID=7" 
      style="
      width: 100%; 
