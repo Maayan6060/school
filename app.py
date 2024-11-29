@@ -24,7 +24,7 @@ st.markdown(
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center; 
-        background-attachment: scroll; 
+        background-attachment: fixed; 
     }}
     </style>
     """,
@@ -33,35 +33,35 @@ st.markdown(
 
 
 
-# #horizontal image line+text
-# st.markdown(
-#     """
-#     <style>
-#     .horizontal-line {
-#         position: relative;
-#         right: 1000px;
-#         width: 200%;
-#         height: 80px; 
-#         background-color: rgba(255, 255, 255, 0.75);
-#         margin: 20px 0; 
-#     }
-#     .line-text {
-#        position: absolute;
-#        top: 50%; 
-#        left: 50%; 
-#        transform: translate(-50%, -50%);
-#        font-size: 60px; 
-#        color: #001f3f;
-#        font-family: 'BN Cloud'; 
-#     }
-#     </style>
-#     <div class="horizontal-line">
-#        <div class="line-text">חטיבת ביניים חלל ותעופה ע"ש אלתרמן</div>
-#     </div>
+#horizontal image line+text
+st.markdown(
+    """
+    <style>
+    .horizontal-line {
+        position: relative;
+        right: 1000px;
+        width: 200%;
+        height: 80px; 
+        background-color: rgba(255, 255, 255, 0.75);
+        margin: 20px 0; 
+    }
+    .line-text {
+       position: absolute;
+       top: 50%; 
+       left: 50%; 
+       transform: translate(-50%, -50%);
+       font-size: 60px; 
+       color: #001f3f;
+       font-family: 'BN Cloud'; 
+    }
+    </style>
+    <div class="horizontal-line">
+       <div class="line-text">חטיבת ביניים חלל ותעופה ע"ש אלתרמן</div>
+    </div>
 
-#     """,
-#     unsafe_allow_html=True
-# )
+    """,
+    unsafe_allow_html=True
+)
 
 #Text - paragraph 1
 st.markdown(
