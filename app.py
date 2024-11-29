@@ -19,7 +19,7 @@ background_image_url = "https://www.netanya.muni.il/DocLib/%D7%97%D7%99%D7%A0%D7
 st.markdown(
     f"""
     <style>
-    .stApp {{
+    body {{
         background-image: url("{background_image_url}");
         background-position: center;
         background-attachment: scroll;
@@ -27,7 +27,6 @@ st.markdown(
         background-repeat: no-repeat;
 
        # height: 100vh;
-    }}
     }}
     </style>
     """,
