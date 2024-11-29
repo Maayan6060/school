@@ -44,6 +44,7 @@ st.markdown(
         height: 80px; 
         background-color: rgba(255, 255, 255, 0.75);
         margin: 20px 0; 
+        z-index: 1000;
     }
     .line-text {
        position: absolute;
@@ -56,7 +57,7 @@ st.markdown(
     }
     </style>
     <div class="horizontal-line">
-    <div style="z-index: 1000;">
+    <div style="position: relative; z-index: 1000;">
        <div class="line-text">חטיבת ביניים חלל ותעופה ע"ש אלתרמן</div>
     </div>
 
