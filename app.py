@@ -16,15 +16,31 @@ st.markdown("""
 
 #Top page image
 background_image_url = "https://www.netanya.muni.il/DocLib/%D7%97%D7%99%D7%A0%D7%95%D7%9A/%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA/%D7%A2%D7%9C%20%D7%99%D7%A1%D7%95%D7%93%D7%99/%D7%AA%D7%96/%D7%91%D7%99%D7%AA%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%9C%D7%AA%D7%A2%D7%95%D7%A4%D7%94%20%D7%95%D7%9C%D7%97%D7%9C%D7%9C%20%D7%A2%D7%9C%20%D7%A9%D7%9D%20%D7%90%D7%9C%D7%AA%D7%A8%D7%9E%D7%9F/28.jpg?RenditionID=7"
+# st.markdown(
+#     f"""
+#     <style>
+#     .stApp {{
+#         background-image: url("{background_image_url}");
+#         background-size: cover; 
+#         background-repeat: no-repeat; 
+#         background-position: center; 
+#         background-attachment: scroll; 
+#     }}
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 st.markdown(
     f"""
     <style>
-    .stApp {{
+    body {{
         background-image: url("{background_image_url}");
-        background-size: cover; 
-        background-repeat: no-repeat; 
-        background-position: center; 
-        background-attachment: scroll; 
+        background-size: cover; /* Ensures the image covers the entire screen */
+        background-repeat: no-repeat; /* Prevents repeating the image */
+        background-position: center; /* Centers the image */
+        background-attachment: scroll; /* Makes the image scroll with the content */
+        margin: 0;
+        padding: 0;
     }}
     </style>
     """,
