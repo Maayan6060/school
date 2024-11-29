@@ -21,7 +21,7 @@ st.markdown(
     <style>
     .stApp {{
         background-image: url("{background_image_url}");
-        background-size: 100% 60%;
+        background-size: 100% 75%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 100vh;
