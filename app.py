@@ -21,7 +21,7 @@ st.markdown(
     <style>
     .stApp {{
         background-image: url("{background_image_url}");
-        background-size: 100% 85%; 
+        background-size: 100% 80%; 
         background-repeat: no-repeat; 
         background-position: center; 
         background-attachment: fixed; 
@@ -56,6 +56,7 @@ st.markdown(
     }
     </style>
     <div class="horizontal-line">
+    <div style="z-index: 1000;">
        <div class="line-text">חטיבת ביניים חלל ותעופה ע"ש אלתרמן</div>
     </div>
 
