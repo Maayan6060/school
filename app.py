@@ -20,7 +20,7 @@ st.markdown(
     f"""
     <style>
     .stApp {{
-    body {{
+  #  body {{
         background-image: url("{background_image_url}");
         background-position: center;
         background-attachment: scroll;
@@ -28,7 +28,7 @@ st.markdown(
         background-repeat: no-repeat;
 
        # height: 100vh;
-    }}
+   # }}
     }}
     </style>
     """,
