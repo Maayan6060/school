@@ -68,7 +68,7 @@ st.markdown(
     <style>
     .custom-text {
         position: relative;
-        bottom: 10000px; 
+        bottom: 1000px; 
         left: 50px; 
         font-size: 20px; 
         color: black;
