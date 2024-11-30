@@ -71,7 +71,7 @@
 #     <style>
 #     .custom-text {
 #         position: relative;
-#         bottom: 1000px; 
+#         bottom: 10px; 
 #         left: 50px; 
 #         font-size: 20px; 
 #         color: black;
