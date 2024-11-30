@@ -112,6 +112,7 @@ st.markdown(
         background-size: 100% 80%; 
         background-repeat: no-repeat; 
         background-position: center; 
+        background-attachment: scroll; 
     }}
     </style>
     """,
@@ -156,7 +157,7 @@ st.markdown(
     <style>
     .custom-text {
         position: relative;
-        bottom: -10000px; 
+        bottom: 0; 
         left: 50px; 
         font-size: 20px; 
         color: black;
@@ -168,6 +169,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
