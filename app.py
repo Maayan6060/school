@@ -71,7 +71,7 @@
 #     <style>
 #     .custom-text {
 #         position: relative;
-#         bottom: 10px; 
+#         bottom: -10000px; 
 #         left: 50px; 
 #         font-size: 20px; 
 #         color: black;
@@ -157,7 +157,7 @@ st.markdown(
     <style>
     .custom-text {
         position: relative;
-        bottom: 0; 
+        bottom: -100000; 
         left: 50px; 
         font-size: 20px; 
         color: black;
