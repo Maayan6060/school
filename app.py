@@ -107,7 +107,7 @@ st.markdown(
     <style>
     .stApp {{
         background-image: url("{background_image_url}");
-        background-size: cover;
+        background-size: 100% 80%;
         background-repeat: no-repeat;
         background-position: center;
     }}
@@ -156,7 +156,7 @@ st.markdown(
     }
     </style>
     <div class="custom-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor velit nec diam blandit, at eleifend risus dignissim.
+        TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest.
     </div>
     """,
     unsafe_allow_html=True
