@@ -82,6 +82,7 @@
 #     """,
 #     unsafe_allow_html=True
 # )
+
 import streamlit as st
 from PIL import Image
 
@@ -107,7 +108,7 @@ st.markdown(
     <style>
     .stApp {{
         background-image: url("{background_image_url}");
-        background-size: 100% 80%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }}
@@ -120,15 +121,15 @@ st.markdown(
 st.markdown(
     """
     <style>
-    .horizontal-line {
+    .horizontal-line {{
         position: relative;
         width: 100%;
         height: 80px; 
         background-color: rgba(255, 255, 255, 0.75);
         margin: 20px 0; 
         z-index: 1000;
-    }
-    .line-text {
+    }}
+    .line-text {{
        position: absolute;
        top: 50%; 
        left: 50%; 
@@ -136,7 +137,7 @@ st.markdown(
        font-size: 60px; 
        color: #001f3f;
        font-family: 'BN Cloud'; 
-    }
+    }}
     </style>
     <div class="horizontal-line">
     <div class="line-text">חטיבת ביניים חלל ותעופה ע"ש אלתרמן</div>
@@ -149,15 +150,17 @@ st.markdown(
 st.markdown(
     """
     <style>
-    .custom-text {
-        margin: 20px;
+    .spacer {{
+        height: 500vh; /* Adjust height to create space equivalent to 5 times the viewport */
+    }}
+    .custom-text {{
         font-size: 20px; 
-        margin-top: 10000px
         color: black;
-    }
+    }}
     </style>
+    <div class="spacer"></div>
     <div class="custom-text">
-        TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor velit nec diam blandit, at eleifend risus dignissim.
     </div>
     """,
     unsafe_allow_html=True
