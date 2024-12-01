@@ -152,7 +152,7 @@ st.markdown(
     .custom-text {
         margin: 20px;
         font-size: 20px; 
-        top: -10000px
+        margin-top: 10000px
         color: black;
     }
     </style>
