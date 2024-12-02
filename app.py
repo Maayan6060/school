@@ -14,8 +14,8 @@ app.layout = html.Div([
     #white (transperent) logo line:
     html.Div(style={'position': 'absolute', 'top': '20%', 'left': '0%', 'width': '100%', 'borderTop': '100px solid white', 'opacity': '0.7'}),
     #School name text:
-    html.Div(children='חטיבת ביניים חלל ותעופה ע"ש אלתרמן',style={'position': 'fixed', 'top': '19%', 'left': '5%', 'fontSize': '100px', 'color': '#003151', 'fontFamily': 'BN Alpaca' })
-
+    html.Div(children='חטיבת ביניים חלל ותעופה ע"ש אלתרמן',style={'position': 'absolute', 'top': '19%', 'left': '5%', 'fontSize': '100px', 'color': '#003151', 'fontFamily': 'BN Alpaca' }),
+    html.Div(children='TestTestTestTextTextText',style={'position': 'scroll', 'top': '1000px', 'left': '50%', 'fontSize': '100px', 'color': '#003151', 'fontFamily': 'BN Alpaca' })
 ])
 
 port = int(os.getenv('PORT', 8050))
