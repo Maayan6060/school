@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'BN Alpaca';
+    src: url('/assets/BN-Alpaca.ttf') format('truetype');
+}
+
+body {
+    font-family: 'BN Alpaca', sans-serif; /* Fallback to sans-serif if font fails to load */
+}
